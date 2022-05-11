@@ -23,13 +23,13 @@ variable "subnetA_cidr" {
    
 variable "public_key_path" {
   description = "SSh public key path"
-  default = "~/.ssh/tf.pub"
+  default = "~/.ssh/tf-demo.pub"
 }
 
 variable "key_name" {
   description = "Desired name of AWS key pair"
   type = string
-  default = "tf"
+  default = "tf-demo"
 }
 
 variable "aws_amis" {
